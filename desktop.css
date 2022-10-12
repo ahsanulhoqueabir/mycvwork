@@ -1,0 +1,103 @@
+
+/* for desktops*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+
+
+.navbar{
+	height: 115px;
+	background-image: radial-gradient(circle,lightgreen,white);
+}
+.nav-logo{
+	text-align: left;
+	height: 150px;
+	width: 150px;
+	
+}
+.nav-heading{
+	padding:15px;
+	text-align: left;
+}
+.navbar-menu{
+	flex-direction: row;
+	justify-content: flex-end;
+	
+}	
+.navbar-menu a{
+	padding: 10px;
+	margin: 15px 10px;
+	background: transparent;
+	color: cadetblue;
+	text-decoration: bolded;
+	
+	
+}
+.navbar-menu a:hover{
+	background: lightgray;
+}
+.profile .top-icon{
+	position: absolute;
+	right:60px;	
+}
+.profile .top-icon:hover{
+	transform: translate(-590px, 190px) scale(3.5);
+}
+.profile-desc p{
+	color: black;
+	text-align: center;
+	font-size: 1.5rem;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.profile .bottom-icon{
+	position: absolute;
+	left:130px;
+	bottom: 10px;
+}
+.profile .bottom-icon:hover{
+	transform: scale(3.5) skew(-150deg);
+}
+.profile::after{
+	content:'';
+	display: none;
+	clear: both;
+}
+.aboutme-img{
+	margin-top: 30px;
+	
+}
+.aboutme-img img{
+	height: 400px;
+	width: 450px;
+}
+.card-title h2{
+	background: cadetblue;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 1.3rem;
+}
+.cbtn{
+	padding: 15px 35px;
+	margin: 10px;
+	
+}
+.footer-desc{
+	margin-top: 5px;
+	
+}
+.footer-menu a{
+	display: inline;
+	margin:10px;
+}
